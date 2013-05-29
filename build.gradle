@@ -1,0 +1,5 @@
+apply plugin:'groovy'
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.6'
+}
